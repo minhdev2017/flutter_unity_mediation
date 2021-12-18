@@ -1,0 +1,61 @@
+PODS:
+  - AppLovinSDK (10.3.7)
+  - Flutter (1.0.0)
+  - Protobuf (3.12.0)
+  - unity_ads_plugin (0.0.2):
+    - Flutter
+    - UnityMediationAppLovinAdapter (= 0.3.0)
+    - UnityMediationSdk (= 0.3.0)
+    - UnityMediationUnityAdapter (= 0.3.0)
+    - UnityMediationVungleAdapter (= 0.3.0)
+  - UnityAds (3.7.5)
+  - UnityMediationAppLovinAdapter (0.3.0):
+    - AppLovinSDK (~> 10.2)
+    - UnityMediationSdk (~> 0.3.0)
+  - UnityMediationSdk (0.3.0):
+    - Protobuf (~> 3.12.0)
+  - UnityMediationUnityAdapter (0.3.0):
+    - UnityAds (~> 3.7)
+    - UnityMediationSdk (~> 0.3.0)
+  - UnityMediationVungleAdapter (0.3.0):
+    - UnityMediationSdk (~> 0.3.0)
+    - VungleSDK-iOS (~> 6.10)
+  - VungleSDK-iOS (6.10.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - unity_ads_plugin (from `.symlinks/plugins/unity_ads_plugin/ios`)
+
+SPEC REPOS:
+  "git@github.com:Unity-Technologies/unity-mediation-cocoapods-prod.git":
+    - UnityMediationAppLovinAdapter
+    - UnityMediationSdk
+    - UnityMediationUnityAdapter
+    - UnityMediationVungleAdapter
+  https://github.com/CocoaPods/Specs.git:
+    - AppLovinSDK
+    - Protobuf
+    - UnityAds
+    - VungleSDK-iOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  unity_ads_plugin:
+    :path: ".symlinks/plugins/unity_ads_plugin/ios"
+
+SPEC CHECKSUMS:
+  AppLovinSDK: 3fe334c90106f1a15f32950c06b7d98cbcf73527
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  unity_ads_plugin: ce823c4b808b262780db112e72621b243426c940
+  UnityAds: 9adbfd8ccc008e4e3e7b1bcf5666a126df4f1a8e
+  UnityMediationAppLovinAdapter: a1d4c0697843a7b59c7757cde2332b542672e41c
+  UnityMediationSdk: df09035d465979cccff2325906b418a0b985110c
+  UnityMediationUnityAdapter: 2c6248722a705a3e19fdd60bfd0e2dcf1f94b585
+  UnityMediationVungleAdapter: 7e9a20034788413a0f4ad2ffdd9c7e98e25abebe
+  VungleSDK-iOS: 794c22a0ea0339c9767da80d63b7c07b8042ddc4
+
+PODFILE CHECKSUM: 48d772ad25786b9600ca9143648de2fac9933627
+
+COCOAPODS: 1.11.2
