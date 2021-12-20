@@ -28,7 +28,7 @@ public class SwiftUnityAdsPlugin: NSObject, FlutterPlugin, UMSInitializationDele
                 case UnityAdsConstants.INIT_METHOD:
                 result(instance.initialize(args!))
                 case UnityAdsConstants.SHOW_FULL_METHOD:
-                result(instance.showReward())
+                result(instance.showFullAds())
                 case UnityAdsConstants.SHOW_REWARD_METHOD:
                 result(instance.showReward())
                 default:
@@ -70,9 +70,8 @@ public class SwiftUnityAdsPlugin: NSObject, FlutterPlugin, UMSInitializationDele
     }
     
     func loadFullAds(){
-        interstitialAd = UMSInterstitialAd(adUnitId: rewardID!);
+        interstitialAd = UMSInterstitialAd(adUnitId: fullID!);
         interstitialAd?.load(with: self)
-        
     }
     
     func showReward() -> Bool{
