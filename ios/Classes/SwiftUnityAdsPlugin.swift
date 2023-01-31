@@ -36,10 +36,6 @@ public class SwiftUnityAdsPlugin: NSObject, FlutterPlugin, UMSInitializationDele
             }
         })
         
-        registrar.register(
-            BannerAdFactory(messenger: messenger),
-            withId: UnityAdsConstants.BANNER_AD_CHANNEL
-        )
         
     }
     
